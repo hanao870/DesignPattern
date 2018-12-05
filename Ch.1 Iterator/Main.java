@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf(4);
+        BookShelf bookShelf = new BookShelf();
 
         bookShelf.appendBook(new Book("Around the World in 80 Days"));
         bookShelf.appendBook(new Book("Bible"));
         bookShelf.appendBook(new Book("Cinderella"));
         bookShelf.appendBook(new Book("Daddy-Long-Legs"));
+        bookShelf.appendBook(new Book("Elephant"));
+        bookShelf.appendBook(new Book("Frog"));
+        bookShelf.appendBook(new Book("Ghost"));
 
         Iterator it = bookShelf.iterator();
         while(it.hasNext()) {
