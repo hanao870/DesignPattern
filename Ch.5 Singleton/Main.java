@@ -12,6 +12,7 @@ public class Main {
         System.out.println("End.");
 
         TestTicketMaker();
+        TestTriple();
     }
 
     public static void TestTicketMaker() {
@@ -19,5 +20,12 @@ public class Main {
         System.out.println("Ticket Num : " + maker.getNextTicketNumber());
         System.out.println("Ticket Num : " + maker.getNextTicketNumber());
         System.out.println("Ticket Num : " + maker.getNextTicketNumber());
+    }
+
+    public static void TestTriple() {
+        for(int i = 0; i < 9; i++) {
+            Triple triple = Triple.getInstance(i % 3);
+            System.out.println(i + " : " + triple);
+        }
     }
 }
