@@ -10,5 +10,14 @@ public class Main {
             System.out.println("obj1 と obj2 は異なるインスタンスです");
 
         System.out.println("End.");
+
+        TestTicketMaker();
+    }
+
+    public static void TestTicketMaker() {
+        TicketMaker maker = TicketMaker.getInstance();
+        System.out.println("Ticket Num : " + maker.getNextTicketNumber());
+        System.out.println("Ticket Num : " + maker.getNextTicketNumber());
+        System.out.println("Ticket Num : " + maker.getNextTicketNumber());
     }
 }
