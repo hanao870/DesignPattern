@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main plain",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Ch.7 Builder_41e00e1b",
+            "args": "plain"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main html",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Ch.7 Builder_41e00e1b",
+            "args": "html"
+        }
+    ]
+}
