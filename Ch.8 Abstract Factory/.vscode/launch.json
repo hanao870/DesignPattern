@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main listfactory",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Ch.8 Abstract Factory_35aa268b",
+            "args": "listfactory.ListFactory"
+        }
+    ]
+}
