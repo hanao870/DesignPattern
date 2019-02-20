@@ -7,6 +7,14 @@
             "mainClass": "Main",
             "projectName": "Ch.8 Abstract Factory_35aa268b",
             "args": "listfactory.ListFactory"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main tablefactory",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Ch.8 Abstract Factory_35aa268b",
+            "args": "tablefactory.TableFactory"
         }
     ]
 }
