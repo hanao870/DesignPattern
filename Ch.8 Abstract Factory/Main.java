@@ -8,7 +8,12 @@ public class Main {
             System.out.println("Example 1: java Main tablefactory.TableFactory");
             System.exit(0);
         }
-        Factory factory = Factory.getFactory(args[0]);
+        createPage(args[0]);
+        createPageEx(args[0]);
+    }
+
+    public static void createPage(String classname) {
+        Factory factory = Factory.getFactory(classname);
 
         Link asahi = factory.createLink("朝日新聞", "http://www.asahi.com");
         Link yomiuri = factory.createLink("読売新聞", "http://www.yomiuri.co.jp");
@@ -33,6 +38,12 @@ public class Main {
         Page page = factory.createPage("LinkPage", "ほげほげ");
         page.add(traynews);
         page.add(traysearch);
+        page.output();
+    }
+
+    static void createPageEx(String classname) {
+        Factory factory = Factory.getFactory(classname);
+        Page page = factory.createYahooPage();
         page.output();
     }
 }
